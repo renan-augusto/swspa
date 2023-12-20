@@ -1,0 +1,18 @@
+<mat-card class="card-container">
+    <mat-card-header>
+        <mat-card-title>{{ title }}</mat-card-title>
+        <mat-card-subtitle>Born: {{ subtitle }}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+        <ul>
+            <li class="height">Height: {{ height }}</li>
+            <li class="weight">Weight: {{ mass }}</li>
+            <li class="hairColor">Hair Color: {{ hairColor }}</li>
+            <li class="eyeColor">Eye Color: {{ eyeColor }}</li>
+            <li class="gender">Gender: {{ gender }}</li>
+        </ul>
+        <mat-card-actions>
+            <button mat-raised-button (click)="openDialog(title)">Movies +</button>
+        </mat-card-actions>
+    </mat-card-content>
+</mat-card>

@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+@font-face {
+  font-family: 'soloist';
+  src: url('./assets/Fonts/Soloist.otf')
+}; 
+
+body {
+  background-image: url('./assets/Imgs/star-background.jpg');
+  background-size: cover;
+}
+
+* {
+    font-family: soloist;
+};
+
